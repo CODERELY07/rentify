@@ -1,0 +1,105 @@
+import { profileEnd } from "console"
+
+const property = [  
+        {
+          "id": "852223931024",
+          "area": "Westchester County",
+          "address": "6 Garth rd, Scarsdale, NY 10583",
+          "city": "Scarsdale",
+          "image": "/property/1.jpg",
+          "type": "Duplex",
+          "floorspace": 1264,
+          "beds": 3,
+          "baths": 1,
+          "price": 295000,
+          "parking": 2,
+          "construction": ["fireplace", "landry"]
+        },
+        {
+          "id": "651263730501",
+          "area": "Westchester County",
+          "address": "39 Sterling ave, White Plains, NY 10606",
+          "city": "White Plains",
+          "image": "/property/2.jpg",
+          "type": "Condo",
+          "floorspace": 768,
+          "beds": 2,
+          "baths": 2,
+          "price": 445000,
+          "parking": 1,
+          "construction": ["elevator", "garage"]
+        },
+        {
+          "id": "3511539610225",
+          "area": "Westchester County",
+          "address": "62 Highland St, Eastchester, NY 10608",
+          "city": "Eastchester",
+          "image": "/property/3.jpg",
+          "type": "Single Family",
+          "floorspace": 1264,
+          "beds": 4,
+          "baths": 1,
+          "price": 325000,
+          "parking": 0,
+          "construction": ["basement", "landry"]
+        },
+        {
+          "id": "2511639410001",
+          "area": "Westchester County",
+          "address": "33 Alden Pl, Bronxville, NY 10708",
+          "city": "Bronxville",
+          "image": "/property/4.jpg",
+          "type": "Townhouse",
+          "floorspace": 1074,
+          "beds": 3,
+          "baths": 1,
+          "price": 665000,
+          "parking": 0,
+          "construction": ["fireplace", "gym"]
+        },
+        {
+          "id": "2411639439991",
+          "area": "Westchester County",
+          "address": "261 California rd, Mamaroneck, NY 10612",
+          "city": "Mamaroneck",
+          "image": "/property/5.jpg",
+          "type": "Studio",
+          "floorspace": 700,
+          "beds": 1,
+          "baths": 1,
+          "price": 265000,
+          "parking": 1,
+          "construction": ["landry", "gym"]
+        },
+        {
+          "id": "1522639490009",
+          "area": "Westchester County",
+          "address": "23 Isle Lane, New Rochelle, NY 10538",
+          "city": "New Rochelle",
+          "image": "/property/6.jpg",
+          "type": "Multi Family",
+          "floorspace": 1630,
+          "beds": 3,
+          "baths": 2,
+          "price": 765000,
+          "parking": 3,
+          "construction": ["basement", "fireplace"]
+        },
+        {
+          "id": "19639490088",
+          "area": "Westchester County",
+          "address": "95 Vernon ave, Scarsdale, NY 10538",
+          "city": "Scarsdale",
+          "image": "/property/7.jpg",
+          "type": "Studio",
+          "floorspace": 1200,
+          "beds": 1,
+          "baths": 1,
+          "price": 215000,
+          "parking": 3,
+          "construction": ["elevator", "garage"]
+        },
+    ]
+
+
+export default property;
