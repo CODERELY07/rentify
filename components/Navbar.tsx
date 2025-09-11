@@ -1,6 +1,6 @@
 // TODO: Create System UI
 "use client"
-import { LogOut, MenuIcon, Sun  , Moon, Settings, User } from "lucide-react"
+import { LogOut, MenuIcon, Sun  , Moon, Settings, User, MenuSquareIcon } from "lucide-react"
 import Link from "next/link"
 import { useTheme } from "next-themes"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
@@ -13,14 +13,18 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Button } from "./ui/button"
+import { SidebarTrigger, useSidebar } from "./ui/sidebar"
 
 const Navbar = () => {
   const { setTheme } = useTheme()
+  const {toggleSidebar} = useSidebar(); 
   return (
-    <nav className="flex justify-between p-4 items-center">
+    <nav className="flex justify-between px-4 py-2 items-center">
       {/* Left */}
-      collapse
-
+      {/* <SidebarTrigger/> */}
+      <Button variant={"outline"} onClick={toggleSidebar}>
+        <MenuSquareIcon/>
+      </Button>
       {/* Right */}
       <div className="flex items-center gap-4">
         <Link href="/">Dashboard</Link>

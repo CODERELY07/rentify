@@ -1,6 +1,6 @@
 "use client"
 
-import { Listings } from "./types";
+import { Listings } from "../../types";
 
 interface PropertyFormProps {
   newListings: Listings;
@@ -11,7 +11,7 @@ interface PropertyFormProps {
 
 export default function PropertyForm({ newListings, setNewListings, handleSubmit, clearForm }: PropertyFormProps) {
   return (
-    <div className="bg-white rounded-lg shadow p-6">
+    <div className="rounded-lg shadow p-6">
       <h2 className="text-xl font-semibold text-gray-800 mb-6">Add New Property</h2>
       
       <form onSubmit={handleSubmit} className="space-y-6">

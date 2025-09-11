@@ -1,7 +1,7 @@
 "use client"
 
 import property from "@/data/property";
-import { Listings } from "./types";
+import { Listings } from "../../types";
 
 interface PropertyListProps {
   listings: Listings[];

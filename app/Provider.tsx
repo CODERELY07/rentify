@@ -3,10 +3,10 @@ import Header from './_components/Header'
 
 const Provider = ({children} : {children: React.ReactNode}) => {
   return (
-    <div>
+    <div className='max-w-[1860px] mx-auto'>
       <Header/>
-      <div className='py-30'>
-        {children}
+      <div>
+          <main>{children}</main>
       </div>
     
     </div>

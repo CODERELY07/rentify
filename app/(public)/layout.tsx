@@ -1,3 +1,4 @@
+import { TabProvider } from "@/context/tab-context";
 import Provider from "../Provider";
 
 export default function MainLayout({
@@ -5,5 +6,10 @@ export default function MainLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <Provider>{children}</Provider>;
+  return(
+    <TabProvider>
+       <Provider>{children}</Provider>
+    </TabProvider>
+ 
+  );
 }
